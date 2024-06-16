@@ -22,9 +22,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-public/
-.eslintrc.cjs
-package-lock.json
-package.json
-vite.config.js
