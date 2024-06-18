@@ -1,4 +1,5 @@
-import { ROWS, COLS } from "../../initGameConfig";
+import './BoardGame.css';
+import { ROWS, COLS, CELL } from "../../initGameConfig";
 
 function BoardGame() {
 
@@ -11,7 +12,9 @@ function BoardGame() {
    }
 
    return (
-      <div className="boardGame">
+      <div
+         style={{width: COLS*CELL, height: ROWS*CELL}}
+         className="boardGame">
          {cells}
       </div>
     )
