@@ -1,9 +1,14 @@
-import { useRef } from 'react';
+import { useRef, useEffect } from 'react';
 import './BoardGame.css';
 
 const BoardOfGame = () => {
 
    const canvasRef = useRef();
+
+   useEffect(() => {
+      const canvas = canvasRef.current;
+      const ctx = canvas.getContext("2d")
+   })
 
    return (
       <div>
