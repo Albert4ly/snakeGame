@@ -1,9 +1,9 @@
-import BoardGame from './components/BoardGame/BoardGame'
+import BoardOfGame from './components/BoardGame/BoardGame'
 
 function App() {
   return (
     <>
-      <BoardGame />
+      <BoardOfGame />
     </>
   )
 }
