@@ -1,13 +1,17 @@
 import { useRef, useEffect } from 'react';
+import { snake } from '../Draw/DrawSnake';
+
 import './BoardGame.css';
 
-const BoardOfGame = () => {
+const BoardOfGame = (props) => {
 
    const canvasRef = useRef();
 
    useEffect(() => {
       const canvas = canvasRef.current;
       const ctx = canvas.getContext("2d")
+     snake
+
    })
 
    return (
